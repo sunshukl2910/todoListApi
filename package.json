@@ -1,0 +1,28 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "My REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \"\\Error:No Test Specified\\\" && exit1\"",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/generalgmt/RESTfulAPITutorial"
+  },
+  "keywords": [
+    "Restful",
+    "API",
+    "Tutorial"
+  ],
+  "author": "Sunita Shukla",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.5"
+  }
+}
